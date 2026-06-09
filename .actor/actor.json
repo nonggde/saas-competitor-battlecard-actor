@@ -1,0 +1,17 @@
+{
+  "actorSpecification": 1,
+  "name": "saas-competitor-battlecard-generator",
+  "title": "SaaS Competitor Battlecard Generator",
+  "description": "Generate AI competitor battlecards, pricing signals, differentiation angles, and sales talk tracks from public SaaS websites.",
+  "readme": "../README.md",
+  "categories": ["AI", "MARKETING", "BUSINESS"],
+  "version": "0.1",
+  "buildTag": "latest",
+  "minMemoryMbytes": 512,
+  "maxMemoryMbytes": 1024,
+  "meta": {
+    "templateId": "js-start"
+  },
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile"
+}

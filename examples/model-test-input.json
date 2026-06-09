@@ -1,0 +1,15 @@
+{
+  "yourCompanyUrl": "https://linear.app",
+  "competitorUrls": [
+    {
+      "url": "https://www.atlassian.com/software/jira"
+    }
+  ],
+  "buyerPersona": "startup founder, product lead, or engineering manager",
+  "marketContext": "Project management and issue tracking software for product and engineering teams",
+  "reportGoal": "Create a concise sales battlecard for positioning a modern product planning tool against an established issue tracking platform.",
+  "language": "English",
+  "maxPagesPerCompany": 2,
+  "maxCharsPerCompany": 8000,
+  "includePricingSignals": true
+}

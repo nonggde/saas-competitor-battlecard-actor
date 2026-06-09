@@ -1,0 +1,15 @@
+{
+  "yourCompanyUrl": "https://example.com",
+  "competitorUrls": [
+    {
+      "url": "https://example.org"
+    }
+  ],
+  "buyerPersona": "founder, sales leader, or product marketer",
+  "marketContext": "B2B SaaS",
+  "reportGoal": "Create a sales-ready competitor battlecard from public website evidence.",
+  "language": "English",
+  "maxPagesPerCompany": 2,
+  "maxCharsPerCompany": 8000,
+  "includePricingSignals": true
+}

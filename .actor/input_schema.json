@@ -1,0 +1,86 @@
+{
+  "title": "SaaS Competitor Battlecard Generator",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "yourCompanyUrl": {
+      "title": "Your company URL",
+      "type": "string",
+      "description": "Public homepage, product page, or pricing page for your SaaS company. Do not use private pages or customer data.",
+      "editor": "textfield",
+      "prefill": "https://example.com"
+    },
+    "competitorUrls": {
+      "title": "Competitor URLs",
+      "type": "array",
+      "description": "Public competitor homepages, product pages, pricing pages, or feature pages.",
+      "editor": "requestListSources",
+      "minItems": 1,
+      "maxItems": 10,
+      "prefill": [
+        {
+          "url": "https://example.org"
+        }
+      ]
+    },
+    "buyerPersona": {
+      "title": "Buyer persona",
+      "type": "string",
+      "description": "Who the battlecard should help you sell to.",
+      "editor": "textfield",
+      "default": "founder, sales leader, or product marketer",
+      "maxLength": 250
+    },
+    "marketContext": {
+      "title": "Market context",
+      "type": "string",
+      "description": "Short context about your category, product, or sales motion.",
+      "editor": "textarea",
+      "default": "B2B SaaS",
+      "maxLength": 800
+    },
+    "reportGoal": {
+      "title": "Report goal",
+      "type": "string",
+      "description": "What you want the battlecard to optimize for.",
+      "editor": "textarea",
+      "default": "Create a sales-ready competitor battlecard from public website evidence.",
+      "maxLength": 1000
+    },
+    "language": {
+      "title": "Language",
+      "type": "string",
+      "description": "Output language.",
+      "editor": "select",
+      "default": "English",
+      "enum": ["English", "Spanish", "French", "German"],
+      "enumTitles": ["English", "Spanish", "French", "German"]
+    },
+    "maxPagesPerCompany": {
+      "title": "Max pages per company",
+      "type": "integer",
+      "description": "Homepage plus prioritized internal pages such as Product, Features, Pricing, Customers, or About.",
+      "editor": "number",
+      "default": 3,
+      "minimum": 1,
+      "maximum": 5
+    },
+    "maxCharsPerCompany": {
+      "title": "Max extracted characters per company",
+      "type": "integer",
+      "description": "Caps public text sent into the model for each company.",
+      "editor": "number",
+      "default": 14000,
+      "minimum": 4000,
+      "maximum": 24000
+    },
+    "includePricingSignals": {
+      "title": "Include pricing signals",
+      "type": "boolean",
+      "description": "Include public pricing and packaging observations when available.",
+      "editor": "checkbox",
+      "default": true
+    }
+  },
+  "required": ["yourCompanyUrl", "competitorUrls"]
+}

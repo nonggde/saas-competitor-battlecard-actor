@@ -1,0 +1,22 @@
+{
+  "name": "saas-competitor-battlecard-actor",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "description": "Apify Actor that turns public SaaS websites into competitor battlecards and pricing intelligence briefs.",
+  "scripts": {
+    "start": "node src/main.mjs",
+    "check": "node --check src/main.mjs && node --check src/site-engine.mjs && node --check src/battlecard-engine.mjs && node --check src/local-demo.mjs",
+    "demo": "DRY_RUN=true node src/main.mjs",
+    "demo:win": "powershell -ExecutionPolicy Bypass -Command \"$env:DRY_RUN='true'; node src/main.mjs\"",
+    "local-demo": "node src/local-demo.mjs"
+  },
+  "dependencies": {
+    "apify": "^3.4.2",
+    "cheerio": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
