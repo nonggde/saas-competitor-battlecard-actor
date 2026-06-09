@@ -116,6 +116,8 @@ Suggested starter pricing:
 - Manual service: USD 19-49 for 5 competitor battlecards, delivered as Markdown/CSV.
 - Upsell: USD 99-249 for a full competitor pack with rewritten sales copy and landing page recommendations.
 
+See [`APIFY-STORE-LISTING.md`](APIFY-STORE-LISTING.md) for the Store listing package, event pricing notes, private test plan, and approval gates.
+
 ## Safety Boundaries
 
 - Public websites only.
