@@ -8,6 +8,18 @@ It is designed for founders, product marketers, sales teams, agencies, and consu
 
 For best results, use competitor product pages, pricing pages, feature pages, or comparison pages instead of only a generic homepage.
 
+## Paid Delivery
+
+Need a reviewed result instead of running the Actor yourself?
+
+- Weekly Competitor Change Brief: USD 49/month on Ko-fi for up to 5 public competitor pages.
+- One-time SaaS competitor battlecards: USD 19+ after scope confirmation.
+- Product page: https://nonggde.github.io/city-in-the-sky-services/weekly-competitor-change-brief.html
+- Ko-fi checkout: https://ko-fi.com/a13553776411gmailcom/tiers
+- Manual order guide: https://nonggde.github.io/city-in-the-sky-services/order.html
+
+Public pages only. Do not send logins, private dashboards, credentials, customer data, API keys, payment data, wallet secrets, KYC material, or regulated data.
+
 ## Source-Available, Not Free Resale
 
 This repository is public for evaluation, platform review, and portfolio proof. It is not free open-source software and it does not grant a commercial reuse license.
